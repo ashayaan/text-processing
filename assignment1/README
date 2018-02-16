@@ -1,0 +1,30 @@
+The submission for the assignment contains the following files:
+	1. q1_index.py
+	2. q1_searcher.py
+	3. q2.py
+	4. q3.pdf
+
+
+q1_index.py file contains the code for creating the index that will be later used to search documents from the Reuters R52 dataset.
+to run the code please type the following command in the terminal.
+
+	sudo python q1_index.py *path where the dataset is stored"
+
+the code will create the indexes for the document and store them in a separate directory.
+
+q1_searcher.py contains the code to query on the documents, to execute the code type the following code in the terminal..
+	
+	sudo python q1_searcher.py
+
+The code will prompt you to enter a query, the query can be in the form of a word, phrase or wild card query.
+
+q2.py contains the code to cluster the documents, using different features. To execute the code type the following command in the terminal.
+
+	sudo q2.py
+
+The code will prompt you to enter the feature you want to use cluster the documents the options available are TF-Term Frequency, TFIDF and BOOL. The code will then prompt you to enter mode you want to use (train, test) the model in. 
+
+NOTE - THE MODEL NEEDS TO BE TRIANED AT LEAST ONCE BEFORE IT CAN BE USED IN TEST MODE.
+
+q3.pdf contains the solution for the third question in the assignment.
+
